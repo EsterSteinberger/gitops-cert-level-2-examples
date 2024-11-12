@@ -7,7 +7,7 @@ spec:
     namespace: 'qa'
     server: 'https://kubernetes.default.svc'
   source:
-    path: './environment-promotion/env/qa'
+    path: './environment-promotion/envs/qa'
     repoURL: 'https://github.com/EsterSteinberger/gitops-cert-level-2-examples.git'
     targetRevision: HEAD
   project: 'default'

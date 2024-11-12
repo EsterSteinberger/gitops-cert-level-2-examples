@@ -7,7 +7,7 @@ spec:
     namespace: 'staging'
     server: 'https://kubernetes.default.svc'
   source:
-    path: './environment-promotion/env/staging'
+    path: './environment-promotion/envs/staging'
     repoURL: 'https://github.com/EsterSteinberger/gitops-cert-level-2-examples.git'
     targetRevision: HEAD
   project: 'default'
